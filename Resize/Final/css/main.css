@@ -317,7 +317,7 @@ h2 {
 
 
 
-@media (max-width: 1400px) { 
+@media (max-width: 2000px) { 
 	.box2{
 		width: 0.125vw;
 	}
@@ -363,7 +363,7 @@ h2 {
 	}
 }
 
-@media (max-height: 680px) { 
+@media (max-height: 2000px) { 
 	.box{
 		height: 0.25vh;
 		margin-top: 0vh;
