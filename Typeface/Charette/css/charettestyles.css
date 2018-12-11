@@ -1,0 +1,177 @@
+body {
+	min-width: 1000px;
+}
+
+div {
+	display: block;
+}
+
+/******* two ******/
+.two {
+	display: inline-block;
+	position: relative;
+	box-sizing: content-box;
+	margin: 120px 50px 120px 50px;
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+.two div.hbar:nth-child(1) {
+	top: 0%;
+	left: 20%;
+}
+
+.two div.vbar:nth-child(2) {
+	top: 10%;
+	left: 70%;
+}
+
+.two div.hbar:nth-child(3) {
+	top: 60%;
+	left: 30%;
+}
+
+.two div.hbar:nth-child(4) {
+	top: 90%;
+	left: 20%;
+}
+
+/****** defining the bars ******/
+.vbar {
+	position: absolute; /**can overlap**/
+	background: black;
+	width: 10%;
+	height: 100%;
+	top:0%;
+	left:0%;
+}
+
+.hbar {
+	position: absolute; /**can overlap**/
+	background: black;
+	width: 100%;
+	height: 10%;
+	top:0%;
+	left:0%;
+}
+
+#length8 {height: 80%;}
+
+#length7 {height: 70%;}
+
+#length6 {height: 60%;}
+
+#length5 {height: 50%;}
+
+#length4 {height: 40%;}
+
+#length3 {height: 30%;}
+
+#length2 {height: 20%;}
+
+#length1 {height: 10%;}
+
+
+#width8 {width: 80%;}
+
+#width7 {width: 70%;}
+
+#width6 {width: 60%;}
+
+#width5 {width: 50%;}
+
+#width4 {width: 40%;}
+
+#width3 {width: 30%;}
+
+#width2 {width: 20%;}
+
+#width1 {width: 10%;}
+
+.red {
+	background-color: red;
+}
+
+.spinning {
+	transform: rotate(720deg);
+	transition: 1s;
+
+}
+
+.rotate90 {
+	transform: rotate(90deg);
+	transition: .25s;
+}
+
+.slowflip {
+	transform: rotateX(360deg);
+	transition: 5s;
+}
+
+.twirl {
+	transform: rotateY(360deg);
+	transition: 2s;
+}
+
+.skewedH {
+	transform: skewX(45deg);
+	transition: .25s;
+}
+
+.skewedV {
+	transform: skewY(45deg);
+	transition: .25s;
+}
+
+.mirror {
+	transform: rotateY(180deg);
+	transition: .25s;
+}
+
+.outline {
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.nightskyBody {
+	background-color: #1e365e;
+	transition: 3s
+}
+
+.blackBG {
+	background-color: black;
+}
+
+.barsToStars  {
+	width: 10% !important;
+	height: 10% !important;
+	transform: rotate(45deg);
+	transition: 3s;
+}
+
+.whiteBars  {
+	background-color: white;
+}
+
+.neonBars {
+	background-color: #00ff00;
+}
+
+.shrinkAway {
+	width: 0px !important;
+	height: 0px !important;
+}
+
+.stretchX {
+	transform: scaleX(2) !important;
+	transition: .5s;
+}
+
+.stretchY {
+	transform: scaleY(2) !important;
+	transition: .5s;
+}
+
