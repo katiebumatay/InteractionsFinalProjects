@@ -32,6 +32,7 @@ div {
 	width: 105vw;
 	background-color: #111111;
 	transition: 1s;
+	cursor: default;
 }
 
 .messageShow {
