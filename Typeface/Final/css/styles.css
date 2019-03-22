@@ -86,6 +86,7 @@ div {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 12px;
 	line-height: 8px;
+	pointer-events: none;
 }
 
 #name {
