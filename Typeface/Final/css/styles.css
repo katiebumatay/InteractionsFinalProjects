@@ -77,6 +77,8 @@ div {
 	position: relative;
 	float: left;
 	color: #515151;
+	pointer-events: none;
+	cursor: default;
 }
 
 .colophon p {
